@@ -1,1 +1,38 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Tangerine', serif;
+  font-size: 24px;
+}
 
+#nav{
+  background: rgb(255, 153, 0);
+  height: 50px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+#nav ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#nav ul li{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+#nav a{
+  color: $white;
+  text-decoration: none;
+  display: block;
+  min-width: 40px;
+  /*height: 50px;*/
+  /*line-height: 50px;*/
+}
+
+#nav a:hover{
+  border-bottom: 4px solid;
+  border-color: rgb(51, 204, 204);
+}
