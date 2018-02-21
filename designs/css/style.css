@@ -33,7 +33,7 @@ body{
   /*line-height: 10px;*/
 }
 
-#nav a:hover{
+#nav ul li a:hover{
   border-bottom: 4px solid;
   border-color: rgb(51, 204, 204);
 }
