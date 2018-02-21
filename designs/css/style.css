@@ -3,10 +3,13 @@ body{
   padding: 0px;
   font-family: 'Tangerine', serif;
   font-size: 24px;
+  background-image: url(../img/shelf.jpg);
+	background-size: cover;
 }
 
 #nav{
   background: rgb(255, 153, 0);
+  /*background: #99ffff;*/
   height: 50px;
   width: 100%;
   font-family: 'Roboto', sans-serif;
@@ -43,6 +46,6 @@ body{
 }
 
 nav img{
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 30px;
 }
